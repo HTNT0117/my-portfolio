@@ -1,0 +1,10 @@
+<div class="project-card">
+    <img src="{{ project.imageUrl }}" alt="Project Image" class="project-image" />
+    <div class="project-details">
+      <h2 class="project-title poppins-bold">{{ project.title }}</h2>
+      <p class="project-tech poppins-medium">{{ project.technology }}</p>
+      <p class="project-description poppins-regular">{{ project.description }}</p>
+      <a [href]="project.link" target="_blank" class="view-project-button poppins-regular" rel="noopener noreferrer">View Project</a>
+    </div>
+  </div>
+  

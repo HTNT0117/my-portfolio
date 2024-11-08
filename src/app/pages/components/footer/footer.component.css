@@ -1,0 +1,31 @@
+.portfolio-footer {
+    background-color: #333; /* Màu nền của footer */
+    color: white; /* Màu chữ */
+    text-align: center; /* Căn giữa nội dung */
+    padding: 20px; /* Khoảng cách bên trong */
+    position: relative; /* Đặt vị trí tương đối để có thể sử dụng cho các hiệu ứng nếu cần */
+}
+
+.footer-content {
+    max-width: 1200px; /* Giới hạn chiều rộng */
+    margin: 0 auto; /* Căn giữa nội dung */
+}
+
+.footer-content p {
+    margin: 0; /* Xóa khoảng cách mặc định */
+}
+
+.social-links {
+    margin-top: 10px; /* Khoảng cách giữa đoạn chữ và các liên kết xã hội */
+}
+
+.social-links a {
+    color: white; /* Màu chữ của liên kết */
+    margin: 0 15px; /* Khoảng cách giữa các liên kết */
+    text-decoration: none; /* Xóa gạch chân */
+    transition: color 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+.social-links a:hover {
+    color: #00bcd4; /* Màu khi hover */
+}

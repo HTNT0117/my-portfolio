@@ -1,0 +1,65 @@
+/* Container styling */
+.developer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    text-align: center;
+    /* var(--light-yellow) */
+    background: linear-gradient(135deg, #fef2f2 , #fef2f2);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Greeting text styling */
+  .greeting {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  /* Main title styling */
+  .title {
+    font-size: 5rem;
+    font-weight: bold;
+    color: var(--light-blue);
+    margin-bottom: -2rem;
+  }
+  
+  /* Subtitle styling */
+  .sub-title {
+    font-size: 5rem;
+    font-weight: bold;
+    color: var(--light-blue);
+    text-shadow: -1px -1px #333, 1px 1px #fff;
+  }
+  
+  /* Description styling */
+  .description {
+    font-size: 1.5rem;
+    color: #666;
+    margin: 1rem 0;
+  }
+
+  
+  .description p {
+    margin: 0; 
+}  
+
+
+.cta-button {
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 2rem;
+    transition: background 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #444;
+  }
+  

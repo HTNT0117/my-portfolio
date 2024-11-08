@@ -1,0 +1,29 @@
+.horizontal-header {
+    background-color: var(--light-yellow);
+    padding: 1rem 5rem 1rem 1px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: sticky; /* Đặt vị trí là sticky */
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Đường viền dưới nhẹ */
+  }
+  
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 25px; 
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: var(--light-blue); 
+    font-size: 1.2rem;
+  }
+  
+  .nav-link:hover {
+    color: #d1d1d1; /* Slight color change on hover */
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,58 @@
+.project-card {
+    position: relative; /* Đặt vị trí tương đối để sử dụng pseudo-element */
+    border: 1px solid #ccc; /* Đường viền nhẹ */
+    border-radius: 8px; /* Bo góc */
+    padding: 20px; /* Khoảng cách bên trong */
+    text-align: center; /* Căn giữa nội dung */
+    overflow: hidden; /* Giúp ẩn phần thừa ra ngoài */
+    transition: transform 0.3s; /* Hiệu ứng khi hover */
+    height: 450px;
+}
+
+.project-card:hover {
+    transform: translateY(-5px); /* Hiệu ứng nâng khi hover */
+}
+
+.project-card::before {
+    content: ''; /* Đảm bảo pseudo-element có nội dung */
+    position: absolute; /* Vị trí tuyệt đối để bao quanh card */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(145deg, rgba(255, 182, 193, 0.5), rgba(255, 192, 203, 0.5)); /* Gradient màu hồng pastel */
+    border-radius: 8px; /* Bo góc giống với card */
+    z-index: -1; /* Để shadow nằm phía sau card */
+    filter: blur(10px); /* Làm mờ gradient để tạo hiệu ứng shadow */
+    opacity: 0.6; /* Điều chỉnh độ mờ cho hiệu ứng nhẹ nhàng */
+}
+
+.project-image {
+    width: 300px; /* Đặt chiều rộng hình ảnh */
+    height: 150px; /* Giữ tỉ lệ hình ảnh */
+    border-radius: 8px; /* Bo góc cho hình ảnh */
+}
+
+.project-title {
+    font-size: 24px; /* Kích thước chữ cho tiêu đề */
+    margin: 10px 0; /* Khoảng cách trên và dưới */
+}
+
+.project-tech, .project-description {
+    font-size: 16px; /* Kích thước chữ cho thông tin */
+    margin: 5px 0; /* Khoảng cách */
+}
+
+.view-project-button {
+    display: inline-block; /* Hiển thị dưới dạng khối */
+    padding: 10px 15px; /* Khoảng cách bên trong */
+    background-color: #333; /* Màu nền của nút */
+    color: white; /* Màu chữ */
+    border-radius: 5px; /* Bo góc cho nút */
+    text-decoration: none; /* Xóa gạch chân */
+    margin-top: 10px; /* Khoảng cách trên */
+}
+
+.view-project-button:hover {
+    background-color: #6d6d6d; /* Màu khi hover */
+}

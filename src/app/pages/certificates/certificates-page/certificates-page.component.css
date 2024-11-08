@@ -1,0 +1,33 @@
+.certificates-container {
+    padding: 20px;
+    max-width: 800px; /* Giới hạn chiều rộng của container */
+    margin: 0 auto; /* Căn giữa container */
+    text-align: center;
+}
+
+.certificates-title {
+    text-align: center; /* Căn giữa tiêu đề */
+    justify-content: center;
+    background-color: var(--light-blue);
+    font-size: 24px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    display: inline-block;
+    margin-top: 3rem;
+}
+
+.certificate-card {
+    border: 1px solid #ccc; /* Đường viền nhẹ */
+    border-radius: 8px; /* Bo góc */
+    padding: 15px; /* Khoảng cách bên trong */
+    margin: 10px 0; /* Khoảng cách giữa các chứng chỉ */
+    background-color: #f9f9f9; /* Màu nền nhẹ */
+}
+
+.certificate-image {
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá chiều rộng card */
+    height: auto; /* Giữ tỉ lệ hình ảnh */
+    border-radius: 8px; /* Bo góc cho hình ảnh */
+    margin-bottom: 10px; /* Khoảng cách dưới hình ảnh */
+}

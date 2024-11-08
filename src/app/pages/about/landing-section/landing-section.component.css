@@ -1,0 +1,60 @@
+.profile-card {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 5px solid var(--light-blue); /* Light blue border color */
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 3rem 0 0 7rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative; /* Thêm thuộc tính này */
+}
+
+.profile-image {
+  position: absolute; 
+  top: -35px; 
+  left: -80px; /* Để điều chỉnh vị trí của hình ảnh */
+}
+
+.profile-image img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid #b4d4fc;
+}
+
+.profile-details {
+  flex: 1;
+  margin-left: 180px; /* Điều chỉnh để tránh chồng lên hình ảnh */
+}
+
+.profile-name {
+  font-size: 2rem;
+  background-color: white;
+  color: var(--light-blue); 
+  margin: 0;
+  padding: 20px 30px;
+  position: absolute; 
+  top: -50px; 
+  left: 200px; 
+}
+
+.profile-title {
+  font-size: 1.5rem;
+  color: var(--light-pink);
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+.profile-description {
+  font-size: 15px;
+  color: #666666;
+  line-height: 1.6;
+}
+
+.greeting {
+  color: #4a90e2; /* Blue color for the "Hi" */
+  font-size: 20px;
+  font-weight: bold;
+}
