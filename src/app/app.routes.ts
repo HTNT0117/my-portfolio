@@ -7,7 +7,7 @@ import { CertificatesPageComponent } from './pages/certificates/certificates-pag
 import { ContactComponent } from './pages/contact/contact/contact.component';
 
 export const routes: Routes = [
-      { path: 'my-portfolio', component: HomeGreetingComponent }, 
+      { path: '', component: HomeGreetingComponent }, 
       { path: 'my-portfolio/about', component: AboutPageComponent },
       { path: 'my-portfolio/projects', component: ProjectsPageComponent },
       { path: 'my-portfolio/certificates', component: CertificatesPageComponent },
