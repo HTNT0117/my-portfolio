@@ -7,9 +7,9 @@ import { CertificatesPageComponent } from './pages/certificates/certificates-pag
 import { ContactComponent } from './pages/contact/contact/contact.component';
 
 export const routes: Routes = [
-      { path: 'ngtram-portfolio', component: HomeGreetingComponent }, 
-      { path: 'ngtram-portfolio/about', component: AboutPageComponent },
-      { path: 'ngtram-portfolio/projects', component: ProjectsPageComponent },
-      { path: 'ngtram-portfolio/certificates', component: CertificatesPageComponent },
-      { path: 'ngtram-portfolio/contact', component: ContactComponent },
+      { path: 'my-portfolio', component: HomeGreetingComponent }, 
+      { path: 'my-portfolio/about', component: AboutPageComponent },
+      { path: 'my-portfolio/projects', component: ProjectsPageComponent },
+      { path: 'my-portfolio/certificates', component: CertificatesPageComponent },
+      { path: 'my-portfolio/contact', component: ContactComponent },
 ]

@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
 export class HomeGreetingComponent {
   constructor(private router: Router) {}
   goToAbout() {
-    this.router.navigate(['/ngtram-portfolio/about']);
+    this.router.navigate(['/my-portfolio/about']);
   }
 
 }
